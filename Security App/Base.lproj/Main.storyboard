@@ -10,17 +10,17 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="VodafoneExBd.ttf">
-            <string>VodafoneExB-Regular</string>
-        </array>
-        <array key="VodafoneLt.ttf">
-            <string>VodafoneLt-Regular</string>
-        </array>
-        <array key="vodafonerg-webfont.ttf">
+        <array key="VodafoneRg.ttf">
             <string>VodafoneRg-Regular</string>
         </array>
-        <array key="vodafonergbd-webfont.ttf">
+        <array key="VodafoneRgBd.ttf">
             <string>VodafoneRg-Bold</string>
+        </array>
+        <array key="vodafoneexbd-webfont.ttf">
+            <string>VodafoneExB-Regular</string>
+        </array>
+        <array key="vodafonelt-webfont.ttf">
+            <string>VodafoneLt-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -40,7 +40,7 @@
                                 <rect key="frame" x="0.0" y="52" width="375" height="615"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mustdoorange" translatesAutoresizingMaskIntoConstraints="NO" id="q7E-5W-j2r">
-                                <rect key="frame" x="0.0" y="450" width="375" height="86"/>
+                                <rect key="frame" x="0.0" y="449" width="375" height="87"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="officestabred" translatesAutoresizingMaskIntoConstraints="NO" id="bEw-1j-rVh">
@@ -50,13 +50,13 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-1-rhombus-1" translatesAutoresizingMaskIntoConstraints="NO" id="TRI-IA-8pq">
-                                <rect key="frame" x="-66" y="-130" width="494" height="553"/>
+                                <rect key="frame" x="-66" y="-131" width="494" height="553"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="553" id="HMI-NH-jRc"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lC3-h9-tgS">
-                                <rect key="frame" x="0.0" y="450" width="335" height="46"/>
+                                <rect key="frame" x="0.0" y="449" width="335" height="47"/>
                                 <fontDescription key="fontDescription" name="VodafoneRg-Bold" family="Vodafone Rg" pointSize="30"/>
                                 <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -583,7 +583,7 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="38 °F" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwg-du-sk8">
-                                <rect key="frame" x="208" y="118" width="201" height="200"/>
+                                <rect key="frame" x="214.5" y="118" width="201" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="201" id="KFc-05-Qev"/>
                                 </constraints>
@@ -592,7 +592,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New York" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3W-Mr-J18">
-                                <rect key="frame" x="31" y="120" width="147" height="40"/>
+                                <rect key="frame" x="31" y="120" width="153.5" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="7GQ-df-rAd"/>
                                 </constraints>
@@ -601,7 +601,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clouds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVY-0t-DGc">
-                                <rect key="frame" x="82" y="161" width="166" height="22"/>
+                                <rect key="frame" x="82" y="161" width="166" height="23.5"/>
                                 <fontDescription key="fontDescription" name="VodafoneRg-Regular" family="Vodafone Rg" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -664,7 +664,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mh8-T6-nN5" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="cJg-ma-bJa">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cJg-ma-bJa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
