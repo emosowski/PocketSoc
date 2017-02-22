@@ -25,6 +25,7 @@ class newyorkMapViewViewController: UIViewController, MKMapViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.parent?.title = "PocketSoc"
         
         let initialLocation = CLLocation(latitude: 40.756679, longitude: -73.972411)
         centerMapOnLocation(initialLocation)

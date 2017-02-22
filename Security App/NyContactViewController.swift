@@ -16,7 +16,7 @@ class NyContactViewController: UIViewController, MFMailComposeViewControllerDele
 
     @IBAction func officeCall(_ sender: Any) {
         
-        let number = URL(string: "telprompt://6469192886")!
+        let number = URL(string: "telprompt://2127312670")!
         if #available(iOS 10.0, *) {
             UIApplication.shared.open(number, options: [:], completionHandler: nil)
         } else {
@@ -25,15 +25,15 @@ class NyContactViewController: UIViewController, MFMailComposeViewControllerDele
     }
     
     
-    @IBAction func sosCall(_ sender: Any) {
-        
-        let number = URL(string: "telprompt://40402087628021")!
-        if #available(iOS 10.0, *) {
-            UIApplication.shared.open(number, options: [:], completionHandler: nil)
-        } else {
-            UIApplication.shared.openURL(number)
-        }
-    }
+//    @IBAction func sosCall(_ sender: Any) {
+//        
+//        let number = URL(string: "telprompt://44(0)2087628021")!
+//        if #available(iOS 10.0, *) {
+//            UIApplication.shared.open(number, options: [:], completionHandler: nil)
+//        } else {
+//            UIApplication.shared.openURL(number)
+//        }
+//    }
     
     @IBAction func sosAppLaunch(_ sender: Any) {
         if let url = NSURL(string: "isosassistance://"), UIApplication.shared.canOpenURL(url as URL) {
@@ -99,7 +99,7 @@ class NyContactViewController: UIViewController, MFMailComposeViewControllerDele
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.title = "My Title"
+                
 
         // Do any additional setup after loading the view.
     }

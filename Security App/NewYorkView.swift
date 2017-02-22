@@ -15,5 +15,16 @@ class NewYorkView: UIViewController {
         backItem.title = ""
         navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        
+        // Do any additional setup after loading the view.
+ 
+    
+    self.navigationItem.title = "PocketSoc"
+    }
 
 }
