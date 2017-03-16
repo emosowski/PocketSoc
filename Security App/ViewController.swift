@@ -24,8 +24,8 @@ class ViewController: UIViewController, IBEPushReceiver {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        
+        self.navigationController?.navigationBar.barTintColor = UIColor.darkGray
+    
         if #available(iOS 10.0, *) {
             let center = UNUserNotificationCenter.current()
             center.requestAuthorization(options: [.alert, .sound, .badge]) { (granted, error) in
@@ -45,7 +45,10 @@ class ViewController: UIViewController, IBEPushReceiver {
 //        publishAsync()
         
     }
-    
+//    
+//    override var preferredStatusBarStyle: UIStatusBarStyle {
+//        return .lightContent
+//    }
  
     
 //    func publishAsync() {
@@ -113,7 +116,7 @@ class ViewController: UIViewController, IBEPushReceiver {
         
         backendless!.messaging.publish(
             "testing",
-            message: "Hello, 😄😀😊😈😧", //"ONE",
+//            message: "Hello, 😄😀😊😈😧", //"ONE",
             publishOptions: publishOptions,
             deliveryOptions: deliveryOptions,
             response: {(status: MessageStatus?) -> () in

@@ -26,9 +26,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         UINavigationBar.appearance().backgroundColor = UIColor.white
-        UINavigationBar.appearance().tintColor = UIColor.black
+        UINavigationBar.appearance().tintColor = UIColor.white
+        //changes back button to white
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+        //changes navigation title text to white
         DebLog.setIsActive(true)
         
+        UINavigationBar.appearance().barStyle = .blackOpaque
+        //changes color of status bar from black to white
+
         
         backendless!.initApp(APP_ID, secret:SECRET_KEY, version:VERSION_NUM)
         //backendless!.hostURL = "http://api.backendless.com"
@@ -56,6 +62,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        application.applicationIconBadgeNumber = 0;
     }
     
     func applicationWillTerminate(_ application: UIApplication) {

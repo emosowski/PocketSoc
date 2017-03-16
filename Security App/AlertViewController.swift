@@ -56,6 +56,10 @@ class AlertViewController: UIViewController{
         //fetchingFirstPageMenuItems()
     }
     
+    override func viewWillLayoutSubviews() {
+        alertOneBody.sizeToFit()
+    }
+    
     func fetchingFirstPage() {
         
         print("\n============ Fetching first page using the SYNC API ============")

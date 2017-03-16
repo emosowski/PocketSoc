@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NewYorkView: UIViewController {
+class locationViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let backItem = UIBarButtonItem()
@@ -18,7 +18,9 @@ class NewYorkView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+   
+//            self.navigationController?.navigationBar.barTintColor = UIColor.white
+
         
         
         // Do any additional setup after loading the view.
@@ -26,5 +28,11 @@ class NewYorkView: UIViewController {
     
     self.navigationItem.title = "PocketSoc"
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+    }
+    
 
 }

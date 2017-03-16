@@ -60,7 +60,7 @@ class NyContactViewController: UIViewController, MFMailComposeViewControllerDele
         
         let mailVC = MFMailComposeViewController()
         mailVC.mailComposeDelegate = self
-        mailVC.setToRecipients(["emily.osowski@vodafone.com"])
+        mailVC.setToRecipients(["help.us@vodafone.com"])
         mailVC.setSubject("")
         mailVC.setMessageBody("", isHTML: false)
         

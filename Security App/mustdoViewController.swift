@@ -18,4 +18,10 @@ override func viewDidLoad() {
     
     // Do any additional setup after loading the view.
 }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let backItem = UIBarButtonItem()
+        backItem.title = ""
+        navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
+    }
 }
