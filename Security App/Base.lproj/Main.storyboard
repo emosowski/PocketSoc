@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="vodafoneexbd-webfont.ttf">
+        <array key="VodafoneExBd.ttf">
             <string>VodafoneExB-Regular</string>
         </array>
         <array key="vodafonelt-webfont.ttf">
@@ -183,6 +183,9 @@
                                                 <state key="normal" image="alpharettatab">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="dzT-uU-d4p" kind="show" id="RhK-jn-9H3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maZ-qr-l7c">
                                                 <rect key="frame" x="-4" y="448" width="344" height="123"/>
@@ -953,7 +956,7 @@ It would only take a few seconds for someone to carry out malicious activity tha
                                 <rect key="frame" x="0.0" y="28" width="375" height="230"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kU1-16-5J7" id="0kO-19-5og">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="229"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="229.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CRi-TS-DJU" userLabel="House Name Text">
@@ -1384,7 +1387,7 @@ It would only take a few seconds for someone to carry out malicious activity tha
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qXE-fk-52Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2991" y="1286"/>
+            <point key="canvasLocation" x="2858" y="1253"/>
         </scene>
         <!--Location-->
         <scene sceneID="fyb-J7-Wuw">
@@ -1399,17 +1402,17 @@ It would only take a few seconds for someone to carry out malicious activity tha
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dr1-WF-ctP">
-                                <rect key="frame" x="0.0" y="377" width="340" height="375"/>
+                                <rect key="frame" x="0.0" y="259" width="340" height="491"/>
                                 <connections>
                                     <outlet property="delegate" destination="7bP-XT-mlh" id="Vcj-Kh-YuF"/>
                                 </connections>
                             </mapView>
                             <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nycpopup" translatesAutoresizingMaskIntoConstraints="NO" id="W73-A5-bFK">
-                                <rect key="frame" x="0.0" y="64" width="340" height="313"/>
+                                <rect key="frame" x="0.0" y="64" width="340" height="195"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="38 °F" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7b4-mx-Ot0">
-                                <rect key="frame" x="200" y="118" width="201" height="200"/>
+                                <rect key="frame" x="191" y="118" width="201" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="201" id="rzV-fY-s8g"/>
                                 </constraints>
@@ -1418,13 +1421,13 @@ It would only take a few seconds for someone to carry out malicious activity tha
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clouds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1X-EN-l8k">
-                                <rect key="frame" x="92" y="212" width="166" height="22"/>
+                                <rect key="frame" x="95" y="196" width="166" height="22"/>
                                 <fontDescription key="fontDescription" name="VodafoneRg-Regular" family="Vodafone Rg" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Redwood City" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2b-U4-mo7">
-                                <rect key="frame" x="25" y="103" width="181" height="91"/>
+                                <rect key="frame" x="16" y="98" width="181" height="91"/>
                                 <fontDescription key="fontDescription" name="VodafoneExB-Regular" family="Vodafone ExB" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -1432,24 +1435,24 @@ It would only take a few seconds for someone to carry out malicious activity tha
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="dr1-WF-ctP" firstAttribute="leading" secondItem="V3p-qQ-ThJ" secondAttribute="leading" id="1Ek-xO-jtj"/>
-                            <constraint firstItem="W73-A5-bFK" firstAttribute="top" secondItem="DSc-9a-pTp" secondAttribute="bottom" id="3Vp-oF-mNG"/>
-                            <constraint firstItem="E2b-U4-mo7" firstAttribute="leading" secondItem="V3p-qQ-ThJ" secondAttribute="leadingMargin" constant="9" id="EZw-AD-sfz"/>
-                            <constraint firstItem="x1X-EN-l8k" firstAttribute="leading" secondItem="V3p-qQ-ThJ" secondAttribute="leadingMargin" constant="76" id="Exl-R7-2AT"/>
-                            <constraint firstItem="dr1-WF-ctP" firstAttribute="top" secondItem="W73-A5-bFK" secondAttribute="bottom" id="K1d-LP-kMw"/>
+                            <constraint firstItem="W73-A5-bFK" firstAttribute="centerY" secondItem="E2b-U4-mo7" secondAttribute="centerY" constant="18" id="4Ut-Sv-1dk"/>
+                            <constraint firstItem="W73-A5-bFK" firstAttribute="leading" secondItem="dr1-WF-ctP" secondAttribute="leading" id="8EC-RZ-p6c"/>
+                            <constraint firstItem="dr1-WF-ctP" firstAttribute="top" secondItem="x1X-EN-l8k" secondAttribute="bottom" constant="41" id="8Jr-Ak-IsB"/>
+                            <constraint firstItem="W73-A5-bFK" firstAttribute="trailing" secondItem="dr1-WF-ctP" secondAttribute="trailing" id="Ci9-Nn-AFG"/>
+                            <constraint firstItem="E2b-U4-mo7" firstAttribute="leading" secondItem="V3p-qQ-ThJ" secondAttribute="leadingMargin" id="EZw-AD-sfz"/>
+                            <constraint firstItem="x1X-EN-l8k" firstAttribute="leading" secondItem="V3p-qQ-ThJ" secondAttribute="leadingMargin" constant="79" id="Exl-R7-2AT"/>
                             <constraint firstItem="7b4-mx-Ot0" firstAttribute="top" secondItem="DSc-9a-pTp" secondAttribute="bottom" constant="54" id="KnM-Rz-Ugn"/>
-                            <constraint firstItem="x1X-EN-l8k" firstAttribute="top" secondItem="E2b-U4-mo7" secondAttribute="bottom" constant="18" id="RDS-Xv-Zno"/>
-                            <constraint firstAttribute="trailing" secondItem="W73-A5-bFK" secondAttribute="trailing" id="RoB-C9-FBx"/>
-                            <constraint firstItem="E2b-U4-mo7" firstAttribute="top" secondItem="DSc-9a-pTp" secondAttribute="bottom" constant="39" id="XXw-4U-h88"/>
-                            <constraint firstItem="Zfe-PI-Hdc" firstAttribute="top" secondItem="W73-A5-bFK" secondAttribute="bottom" constant="374" id="YoV-A9-rbi"/>
-                            <constraint firstItem="dr1-WF-ctP" firstAttribute="trailing" secondItem="W73-A5-bFK" secondAttribute="trailing" id="czO-lu-zlS"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="7b4-mx-Ot0" secondAttribute="trailing" constant="-77" id="fps-93-ZqZ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="x1X-EN-l8k" secondAttribute="trailing" constant="66" id="kJm-GX-3X0"/>
-                            <constraint firstItem="dr1-WF-ctP" firstAttribute="leading" secondItem="W73-A5-bFK" secondAttribute="leading" id="kdc-ZG-id4"/>
+                            <constraint firstItem="dr1-WF-ctP" firstAttribute="leading" secondItem="V3p-qQ-ThJ" secondAttribute="leading" id="Odo-x3-kcg"/>
+                            <constraint firstItem="x1X-EN-l8k" firstAttribute="top" secondItem="E2b-U4-mo7" secondAttribute="bottom" constant="7" id="RDS-Xv-Zno"/>
+                            <constraint firstItem="E2b-U4-mo7" firstAttribute="top" secondItem="DSc-9a-pTp" secondAttribute="bottom" constant="34" id="XXw-4U-h88"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7b4-mx-Ot0" secondAttribute="trailing" constant="-68" id="fps-93-ZqZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="x1X-EN-l8k" secondAttribute="trailing" constant="63" id="kJm-GX-3X0"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="dr1-WF-ctP" secondAttribute="bottom" constant="50" id="kjR-mz-lRg"/>
                             <constraint firstItem="7b4-mx-Ot0" firstAttribute="leading" secondItem="E2b-U4-mo7" secondAttribute="trailing" constant="-6" id="pPa-tG-Ec5"/>
+                            <constraint firstAttribute="trailing" secondItem="W73-A5-bFK" secondAttribute="trailing" id="sbV-er-Xm8"/>
                             <constraint firstItem="Zfe-PI-Hdc" firstAttribute="top" secondItem="7b4-mx-Ot0" secondAttribute="bottom" constant="433" id="wOc-wu-iaw"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="dr1-WF-ctP" secondAttribute="bottom" constant="48" id="wva-jN-ebf"/>
-                            <constraint firstItem="x1X-EN-l8k" firstAttribute="top" secondItem="V3p-qQ-ThJ" secondAttribute="top" constant="212" id="yxh-1M-nQ2"/>
+                            <constraint firstItem="W73-A5-bFK" firstAttribute="top" secondItem="DSc-9a-pTp" secondAttribute="bottom" id="ySG-8H-SZ2"/>
+                            <constraint firstItem="x1X-EN-l8k" firstAttribute="top" secondItem="V3p-qQ-ThJ" secondAttribute="top" constant="196" id="yxh-1M-nQ2"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Location" image="Location" selectedImage="Location" id="pxy-Hj-vPr"/>
@@ -1591,6 +1594,104 @@ It would only take a few seconds for someone to carry out malicious activity tha
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UFt-Xf-beK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4922" y="1430"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="wsB-Sh-nCx">
+            <objects>
+                <tabBarController id="dzT-uU-d4p" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="mAi-TX-Md8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" red="0.90196078430000004" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="imr-vv-5cA" kind="relationship" relationship="viewControllers" id="yzJ-Ad-rpO"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uln-8x-1yH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1941" y="1627"/>
+        </scene>
+        <!--Location-->
+        <scene sceneID="t4R-pG-Nle">
+            <objects>
+                <viewController id="imr-vv-5cA" customClass="denverMapViewViewController" customModule="Security_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MEo-eC-W8t"/>
+                        <viewControllerLayoutGuide type="bottom" id="bBo-w3-vSb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MWR-Wo-WaW">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Pxi-9l-f7n">
+                                <rect key="frame" x="0.0" y="240" width="667" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="375" id="Flw-rU-FPU"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="imr-vv-5cA" id="eZZ-uH-ErP"/>
+                                </connections>
+                            </mapView>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nycpopup" translatesAutoresizingMaskIntoConstraints="NO" id="qvm-WN-nVQ">
+                                <rect key="frame" x="0.0" y="64" width="340" height="313"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="38 °F" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCE-Sb-jSy">
+                                <rect key="frame" x="260" y="118" width="201" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="7Sf-sB-3Dt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="VodafoneLt-Regular" family="Vodafone Lt" pointSize="62"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alpharetta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcy-Zf-7sk">
+                                <rect key="frame" x="54" y="120" width="172" height="40"/>
+                                <fontDescription key="fontDescription" name="VodafoneExB-Regular" family="Vodafone ExB" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Clouds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7P8-Ni-Lf5">
+                                <rect key="frame" x="84" y="161" width="166" height="157"/>
+                                <fontDescription key="fontDescription" name="VodafoneRg-Regular" family="Vodafone Rg" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mCE-Sb-jSy" firstAttribute="top" secondItem="MEo-eC-W8t" secondAttribute="bottom" constant="54" id="2WY-iS-VlC"/>
+                            <constraint firstItem="mCE-Sb-jSy" firstAttribute="bottom" secondItem="7P8-Ni-Lf5" secondAttribute="bottom" id="7i1-g0-zYT"/>
+                            <constraint firstItem="bBo-w3-vSb" firstAttribute="top" secondItem="Pxi-9l-f7n" secondAttribute="bottom" constant="1" id="EIQ-Jn-cyf"/>
+                            <constraint firstItem="mCE-Sb-jSy" firstAttribute="leading" secondItem="gcy-Zf-7sk" secondAttribute="trailing" constant="34" id="EaH-sg-4Bt"/>
+                            <constraint firstItem="gcy-Zf-7sk" firstAttribute="top" secondItem="MEo-eC-W8t" secondAttribute="bottom" constant="56" id="Ern-0S-XVf"/>
+                            <constraint firstItem="7P8-Ni-Lf5" firstAttribute="top" secondItem="MWR-Wo-WaW" secondAttribute="top" constant="161" id="GjX-Vg-fLP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7P8-Ni-Lf5" secondAttribute="trailing" constant="76" id="JsH-TW-aVp"/>
+                            <constraint firstItem="7P8-Ni-Lf5" firstAttribute="top" secondItem="gcy-Zf-7sk" secondAttribute="bottom" constant="1" id="LGT-dA-5Nl"/>
+                            <constraint firstItem="bBo-w3-vSb" firstAttribute="top" secondItem="qvm-WN-nVQ" secondAttribute="bottom" constant="374" id="OPl-ff-v5s"/>
+                            <constraint firstItem="Pxi-9l-f7n" firstAttribute="leading" secondItem="qvm-WN-nVQ" secondAttribute="leading" id="PUm-sR-aWQ"/>
+                            <constraint firstItem="qvm-WN-nVQ" firstAttribute="top" secondItem="MEo-eC-W8t" secondAttribute="bottom" id="T5Z-41-Lvh"/>
+                            <constraint firstAttribute="trailing" secondItem="Pxi-9l-f7n" secondAttribute="trailing" id="fAM-1x-Poc"/>
+                            <constraint firstItem="Pxi-9l-f7n" firstAttribute="trailing" secondItem="qvm-WN-nVQ" secondAttribute="trailing" id="hPZ-Fc-kmS"/>
+                            <constraint firstItem="7P8-Ni-Lf5" firstAttribute="leading" secondItem="MWR-Wo-WaW" secondAttribute="leadingMargin" constant="66" id="n0C-Bx-lyt"/>
+                            <constraint firstItem="Pxi-9l-f7n" firstAttribute="leading" secondItem="MWR-Wo-WaW" secondAttribute="leading" id="uRr-eH-uc0"/>
+                            <constraint firstItem="gcy-Zf-7sk" firstAttribute="leading" secondItem="MWR-Wo-WaW" secondAttribute="leadingMargin" constant="38" id="wKP-bX-U8S"/>
+                            <constraint firstItem="Pxi-9l-f7n" firstAttribute="top" secondItem="7P8-Ni-Lf5" secondAttribute="bottom" constant="57" id="wdL-0Q-a5z"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Location" image="Location" selectedImage="Location" id="MMj-MN-knz"/>
+                    <connections>
+                        <outlet property="locationLabel" destination="gcy-Zf-7sk" id="S3T-if-Q5g"/>
+                        <outlet property="mapView" destination="Pxi-9l-f7n" id="aAg-WY-W7E"/>
+                        <outlet property="tempLabel" destination="mCE-Sb-jSy" id="z9f-eC-mnI"/>
+                        <outlet property="weatherLabel" destination="7P8-Ni-Lf5" id="FQV-hL-xLB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BAy-YX-v2L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2626" y="1988"/>
         </scene>
     </scenes>
     <resources>
