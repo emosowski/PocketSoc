@@ -30,6 +30,10 @@
 		68C74F3E1E79D6C600B7FAE2 /* NYEvacPlan1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 68C74F3D1E79D6C600B7FAE2 /* NYEvacPlan1.pdf */; };
 		68E0FB401E8444DA006B0AF7 /* alpharettaMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0FB3F1E8444DA006B0AF7 /* alpharettaMapViewController.swift */; };
 		68F33B281E5DF17200625149 /* mustdoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F33B271E5DF17200625149 /* mustdoViewController.swift */; };
+		68F51AFB1E894D05006C4A18 /* alpharettaWeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F51AFA1E894D05006C4A18 /* alpharettaWeatherDataModel.swift */; };
+		68F51AFD1E894DD8006C4A18 /* denverContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F51AFC1E894DD8006C4A18 /* denverContactViewController.swift */; };
+		68F51AFF1E897BC6006C4A18 /* redwoodContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F51AFE1E897BC6006C4A18 /* redwoodContactViewController.swift */; };
+		68F51B011E897CAC006C4A18 /* alpharettaContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F51B001E897CAC006C4A18 /* alpharettaContactViewController.swift */; };
 		A1A7BF521E12FBF200742914 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A7BF511E12FBF200742914 /* DataModel.swift */; };
 		A1A7BF541E12FF5600742914 /* NYEvacPlan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A1A7BF531E12FF5600742914 /* NYEvacPlan.pdf */; };
 		A1A7BF561E14377900742914 /* locationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A7BF551E14377900742914 /* locationViewController.swift */; };
@@ -80,6 +84,10 @@
 		68C74F3D1E79D6C600B7FAE2 /* NYEvacPlan1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = NYEvacPlan1.pdf; path = ../../../NYEvacPlan1.pdf; sourceTree = "<group>"; };
 		68E0FB3F1E8444DA006B0AF7 /* alpharettaMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alpharettaMapViewController.swift; sourceTree = "<group>"; };
 		68F33B271E5DF17200625149 /* mustdoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mustdoViewController.swift; sourceTree = "<group>"; };
+		68F51AFA1E894D05006C4A18 /* alpharettaWeatherDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alpharettaWeatherDataModel.swift; sourceTree = "<group>"; };
+		68F51AFC1E894DD8006C4A18 /* denverContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = denverContactViewController.swift; sourceTree = "<group>"; };
+		68F51AFE1E897BC6006C4A18 /* redwoodContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = redwoodContactViewController.swift; sourceTree = "<group>"; };
+		68F51B001E897CAC006C4A18 /* alpharettaContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alpharettaContactViewController.swift; sourceTree = "<group>"; };
 		A1A7BF511E12FBF200742914 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		A1A7BF531E12FF5600742914 /* NYEvacPlan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NYEvacPlan.pdf; sourceTree = "<group>"; };
 		A1A7BF551E14377900742914 /* locationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationViewController.swift; sourceTree = "<group>"; };
@@ -164,9 +172,13 @@
 				681BD6941E40F2810014F9F3 /* HousesCell.swift */,
 				681BD68E1E40DA760014F9F3 /* Alert.swift */,
 				6806C13A1DF5F7040083CF4E /* NyContactViewController.swift */,
+				68F51AFC1E894DD8006C4A18 /* denverContactViewController.swift */,
+				68F51AFE1E897BC6006C4A18 /* redwoodContactViewController.swift */,
+				68F51B001E897CAC006C4A18 /* alpharettaContactViewController.swift */,
 				A1A7BF511E12FBF200742914 /* DataModel.swift */,
 				681794C11E7AD36600D1BF34 /* denverWeatherDataModel.swift */,
 				681794C31E7AE63E00D1BF34 /* redwoodWeatherDataModel.swift */,
+				68F51AFA1E894D05006C4A18 /* alpharettaWeatherDataModel.swift */,
 				688AB9091DFB38D3009A9813 /* Location.swift */,
 				6806C1421DF9CBCC0083CF4E /* VCMapView.swift */,
 				688AB90F1DFF1B05009A9813 /* EvacuationController.swift */,
@@ -351,8 +363,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				681BD6911E40EEF80014F9F3 /* AlertsTableViewController.swift in Sources */,
+				68F51AFD1E894DD8006C4A18 /* denverContactViewController.swift in Sources */,
 				688AB9101DFF1B05009A9813 /* EvacuationController.swift in Sources */,
 				681BD6951E40F2810014F9F3 /* HousesCell.swift in Sources */,
+				68F51AFF1E897BC6006C4A18 /* redwoodContactViewController.swift in Sources */,
 				68F33B281E5DF17200625149 /* mustdoViewController.swift in Sources */,
 				681794C61E7AE68400D1BF34 /* redwoodMapViewController.swift in Sources */,
 				681BD6971E4279020014F9F3 /* OfficeTabBarController.swift in Sources */,
@@ -366,6 +380,7 @@
 				681794C41E7AE63E00D1BF34 /* redwoodWeatherDataModel.swift in Sources */,
 				A1A7BF521E12FBF200742914 /* DataModel.swift in Sources */,
 				A1D2FBF21DD2206400F6BE9B /* ViewController.swift in Sources */,
+				68F51B011E897CAC006C4A18 /* alpharettaContactViewController.swift in Sources */,
 				681794C01E7AC8A800D1BF34 /* denverMapViewController.swift in Sources */,
 				686E3D361E64B87F001DBBAC /* step1ViewController.swift in Sources */,
 				681CED7C1E37DF1400432137 /* AlertViewController.swift in Sources */,
@@ -374,6 +389,7 @@
 				686E3D3E1E68C6B6001DBBAC /* step4VieweController.swift in Sources */,
 				A1A7BF561E14377900742914 /* locationViewController.swift in Sources */,
 				686E3D3A1E68C694001DBBAC /* step2ViewController.swift in Sources */,
+				68F51AFB1E894D05006C4A18 /* alpharettaWeatherDataModel.swift in Sources */,
 				6806C1431DF9CBCC0083CF4E /* VCMapView.swift in Sources */,
 				681794C21E7AD36600D1BF34 /* denverWeatherDataModel.swift in Sources */,
 				6806C1391DF1D46E0083CF4E /* newyorkMapViewViewController.swift in Sources */,
