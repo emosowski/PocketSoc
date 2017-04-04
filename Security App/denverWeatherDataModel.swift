@@ -31,11 +31,11 @@ class denverWeatherDataModel {
     }
     
     var location: String {
-        return _location ?? "Location Invalid"
+        return _location ?? "Denver"
     }
     
     var weather: String {
-        return _weather ?? "Weather Invalid"
+        return _weather ?? "Error"
     }
     
     func downloadData(completed: @escaping ()-> ()) {

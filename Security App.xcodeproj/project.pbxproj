@@ -19,6 +19,11 @@
 		681BD6951E40F2810014F9F3 /* HousesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681BD6941E40F2810014F9F3 /* HousesCell.swift */; };
 		681BD6971E4279020014F9F3 /* OfficeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681BD6961E4279020014F9F3 /* OfficeTabBarController.swift */; };
 		681CED7C1E37DF1400432137 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681CED7B1E37DF1400432137 /* AlertViewController.swift */; };
+		685A33AF1E940B4800823A3F /* NYWelcomeKit2017.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 685A33AE1E940B4800823A3F /* NYWelcomeKit2017.pdf */; };
+		685A33B11E9414AB00823A3F /* denverEvacuationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A33B01E9414AB00823A3F /* denverEvacuationViewController.swift */; };
+		685A33B31E94155900823A3F /* DenverWelcomeKit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 685A33B21E94155900823A3F /* DenverWelcomeKit.pdf */; };
+		685A33B51E94198500823A3F /* alpharettaEvacuationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A33B41E94198500823A3F /* alpharettaEvacuationController.swift */; };
+		685A33B71E941A2500823A3F /* ATLWelcomeKit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 685A33B61E941A2500823A3F /* ATLWelcomeKit.pdf */; };
 		686E3D361E64B87F001DBBAC /* step1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E3D351E64B87F001DBBAC /* step1ViewController.swift */; };
 		686E3D381E687F4E001DBBAC /* step5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E3D371E687F4E001DBBAC /* step5ViewController.swift */; };
 		686E3D3A1E68C694001DBBAC /* step2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E3D391E68C694001DBBAC /* step2ViewController.swift */; };
@@ -70,6 +75,11 @@
 		681BD6941E40F2810014F9F3 /* HousesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousesCell.swift; sourceTree = "<group>"; };
 		681BD6961E4279020014F9F3 /* OfficeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfficeTabBarController.swift; sourceTree = "<group>"; };
 		681CED7B1E37DF1400432137 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		685A33AE1E940B4800823A3F /* NYWelcomeKit2017.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = NYWelcomeKit2017.pdf; path = ../../../NYWelcomeKit2017.pdf; sourceTree = "<group>"; };
+		685A33B01E9414AB00823A3F /* denverEvacuationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = denverEvacuationViewController.swift; sourceTree = "<group>"; };
+		685A33B21E94155900823A3F /* DenverWelcomeKit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = DenverWelcomeKit.pdf; path = ../../../DenverWelcomeKit.pdf; sourceTree = "<group>"; };
+		685A33B41E94198500823A3F /* alpharettaEvacuationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alpharettaEvacuationController.swift; sourceTree = "<group>"; };
+		685A33B61E941A2500823A3F /* ATLWelcomeKit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = ATLWelcomeKit.pdf; path = ../../../ATLWelcomeKit.pdf; sourceTree = "<group>"; };
 		68611B4B1E27CC15002C2583 /* Security App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Security App.entitlements"; sourceTree = "<group>"; };
 		686E3D351E64B87F001DBBAC /* step1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = step1ViewController.swift; sourceTree = "<group>"; };
 		686E3D371E687F4E001DBBAC /* step5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = step5ViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +192,8 @@
 				688AB9091DFB38D3009A9813 /* Location.swift */,
 				6806C1421DF9CBCC0083CF4E /* VCMapView.swift */,
 				688AB90F1DFF1B05009A9813 /* EvacuationController.swift */,
+				685A33B01E9414AB00823A3F /* denverEvacuationViewController.swift */,
+				685A33B41E94198500823A3F /* alpharettaEvacuationController.swift */,
 				688AB9111DFF3C77009A9813 /* Rect.swift */,
 				A1D2FBF31DD2206400F6BE9B /* Main.storyboard */,
 				686E3D351E64B87F001DBBAC /* step1ViewController.swift */,
@@ -207,7 +219,10 @@
 			children = (
 				A1D2FC141DD26DB100F6BE9B /* vodafoneexbd-webfont.ttf */,
 				68C74F3D1E79D6C600B7FAE2 /* NYEvacPlan1.pdf */,
+				685A33AE1E940B4800823A3F /* NYWelcomeKit2017.pdf */,
+				685A33B21E94155900823A3F /* DenverWelcomeKit.pdf */,
 				A1A7BF531E12FF5600742914 /* NYEvacPlan.pdf */,
+				685A33B61E941A2500823A3F /* ATLWelcomeKit.pdf */,
 				A1D2FC151DD26DB100F6BE9B /* VodafoneExBd.ttf */,
 				A1D2FC161DD26DB100F6BE9B /* vodafonelt-webfont.ttf */,
 				A1D2FC171DD26DB100F6BE9B /* VodafoneLt.ttf */,
@@ -297,12 +312,15 @@
 				A1A7BF541E12FF5600742914 /* NYEvacPlan.pdf in Resources */,
 				A1D2FBF51DD2206400F6BE9B /* Main.storyboard in Resources */,
 				68C74F3E1E79D6C600B7FAE2 /* NYEvacPlan1.pdf in Resources */,
+				685A33B31E94155900823A3F /* DenverWelcomeKit.pdf in Resources */,
 				A1D2FC1E1DD26DB100F6BE9B /* vodafonelt-webfont.ttf in Resources */,
 				A1D2FC221DD26DB100F6BE9B /* vodafonergbd-webfont.ttf in Resources */,
 				A1D2FC1F1DD26DB100F6BE9B /* VodafoneLt.ttf in Resources */,
+				685A33AF1E940B4800823A3F /* NYWelcomeKit2017.pdf in Resources */,
 				A1D2FC211DD26DB100F6BE9B /* VodafoneRg.ttf in Resources */,
 				A1D2FC1C1DD26DB100F6BE9B /* vodafoneexbd-webfont.ttf in Resources */,
 				A1D2FC201DD26DB100F6BE9B /* vodafonerg-webfont.ttf in Resources */,
+				685A33B71E941A2500823A3F /* ATLWelcomeKit.pdf in Resources */,
 				A1D2FC231DD26DB100F6BE9B /* VodafoneRgBd.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				681BD6911E40EEF80014F9F3 /* AlertsTableViewController.swift in Sources */,
+				685A33B11E9414AB00823A3F /* denverEvacuationViewController.swift in Sources */,
 				68F51AFD1E894DD8006C4A18 /* denverContactViewController.swift in Sources */,
 				688AB9101DFF1B05009A9813 /* EvacuationController.swift in Sources */,
 				681BD6951E40F2810014F9F3 /* HousesCell.swift in Sources */,
@@ -383,6 +402,7 @@
 				68F51B011E897CAC006C4A18 /* alpharettaContactViewController.swift in Sources */,
 				681794C01E7AC8A800D1BF34 /* denverMapViewController.swift in Sources */,
 				686E3D361E64B87F001DBBAC /* step1ViewController.swift in Sources */,
+				685A33B51E94198500823A3F /* alpharettaEvacuationController.swift in Sources */,
 				681CED7C1E37DF1400432137 /* AlertViewController.swift in Sources */,
 				A1D2FBF01DD2206400F6BE9B /* AppDelegate.swift in Sources */,
 				686E3D3C1E68C6A2001DBBAC /* step3ViewController.swift in Sources */,

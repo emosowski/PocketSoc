@@ -17,7 +17,7 @@ class EvacuationController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let pdf = Bundle.main.url(forResource: "NYEvacPlan1", withExtension: "pdf", subdirectory: nil, localization: nil)  {
+        if let pdf = Bundle.main.url(forResource: "NYWelcomeKit2017", withExtension: "pdf", subdirectory: nil, localization: nil)  {
                 let req = NSURLRequest(url: pdf)
                 let webView = UIWebView(frame: CGRect(0,60,self.view.frame.size.width-0,self.view.frame.size.height-60))
                 webView.loadRequest(req as URLRequest)
